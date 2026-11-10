@@ -57,18 +57,6 @@ The testbench has a simple master model that can issue bursts with any ID, size,
 
 Tests run with random READY stalls and random burst settings across multiple seeds.
 
-## How to run
-
-Tool: Vivado Simulator, tested on Artix-7 targets.
-
-1. Create a new Vivado project
-2. Add everything in `rtl/` as design sources
-3. Add everything in `tb/` as simulation sources
-4. Set `axi_full_tb` as the top simulation module
-5. Run behavioral simulation
-
-The pass or fail summary prints in the Tcl console at the end of the run.
-
 ## Status
 
 - [ ] Address generator (FIXED, INCR, WRAP)
