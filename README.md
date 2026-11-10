@@ -95,14 +95,8 @@ The pass or fail summary prints in the Tcl console at the end of the run.
 - AHB-Lite slave
 - APB
 - SPI
-- RISC-V RV32I core
 
 ## Author
 
 Saravana Kumar K
-ECE, PSNA College of Engineering and Technology
-Interested in VLSI and RTL design roles
 
-## License
-
-MIT
